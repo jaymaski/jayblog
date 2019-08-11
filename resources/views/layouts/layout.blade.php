@@ -27,7 +27,7 @@
             </div>
         </div>
 
-        <footer class="footer text-center">
+        <footer class="footer text-center sticky-bottom">
             Copyright 2019 &copy; <span class="footer__copyright-name"> jaymaski </span>
         </footer>
     </body>

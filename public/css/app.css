@@ -10664,6 +10664,34 @@ a.text-dark:focus {
   }
 }
 
+.header {
+  font-family: "Montserrat-Black";
+}
+
+.navbar {
+  font-family: "Raleway-Regular";
+}
+
+.navbar-brand {
+  font-family: "Raleway-Black";
+}
+
+.collapse {
+  font-size: 16px;
+}
+
+.footer {
+  font-family: "Raleway-Regular";
+  color: #fff;
+  background-color: #3490dc;
+  padding: 10px;
+}
+
+.body {
+  font-family: "Raleway-Regular";
+  text-align: justify;
+}
+
 .mt-1 {
   margin-top: 1px !important;
 }
@@ -13864,16 +13892,7 @@ a.text-dark:focus {
   padding-right: 100px !important;
 }
 
-.home {
-  font-family: "Montserrat-Black";
-}
-
-.body {
-  font-family: "Raleway-Regular";
-  text-align: justify;
-}
-
 .homepage {
-  margin: 40px 0 0;
+  margin: 40px 0;
 }
 
