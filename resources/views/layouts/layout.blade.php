@@ -30,8 +30,5 @@
         <footer class="footer text-center">
             Copyright 2019 &copy; <span class="footer__copyright-name"> jaymaski </span>
         </footer>
-        <script src="" async defer></script>
-        <script type="text/javascript" src="{{ asset('../../public/js/jQuery-2.1.4.min.js') }}"></script>
-       <script type="text/javascript" src="{{ asset('public/js/bootstrap.min.js') }}"></script>
     </body>
 </html>
