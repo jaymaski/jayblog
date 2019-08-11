@@ -11,7 +11,7 @@
     <body>
         @include('include.navbar')
 
-        @if(Request::is('/'))
+        @if(Request::is('about'))
             @include('include.homepage_carousell')
         @endif
 
@@ -22,7 +22,11 @@
                 </div>
 
                 <div class="col-md-4 col-lg-4">
-                    @include('include.sidebar')
+                    @if(Request::is('/'))
+                        <div></div>
+                    @else
+                        @include('include.sidebar')
+                    @endif
                 </div>
             </div>
         </div>
