@@ -15,6 +15,10 @@
             @include('include.homepage_carousell')
         @endif
 
+        @if(Request::is('/'))
+            @yield('landing-page')
+        @endif
+
         <div class="container">
             <div class="homepage row">
                 <div class="col-md-8 col-lg-8">
@@ -31,8 +35,12 @@
             </div>
         </div>
 
-        <footer class="footer text-center sticky-bottom">
-            Copyright 2019 &copy; <span class="footer__copyright-name"> jaymaski </span>
-        </footer>
+        @if(Request::is('/'))
+            <div></div>
+        @else
+            <footer class="footer text-center fixed-bottom">
+                Copyright 2019 &copy; <span class="footer__copyright-name"> jaymaski </span>
+            </footer>
+        @endif
     </body>
 </html>
